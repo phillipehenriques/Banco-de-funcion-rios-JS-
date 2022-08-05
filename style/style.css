@@ -72,26 +72,48 @@ img {
 .colunacard {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     padding: 0.8rem;
 }
 
 .coluna1 {
-    background-color: rgb(97, 97, 97);
-    text-align: none;
-    color: white;
-    border-radius: 12px;
-    width: 47%;
+    display: flex;
+    flex-direction: column;
+    width: 28%;
     height: auto;
 }
 
-.coluna2 {
-    background-color: rgba(97, 97, 97, 0.37);
-    text-align: center;
-    color: white;
-    border-radius: 12px;
-    width: 47%;
+.coluna2 {  
+    display: flex;
+    flex-direction: column;
+    width: 72%;
     height: auto;
+}
+
+.linhac1 {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;
+    padding-left: 0.7rem;
+    background-color: rgba(165, 77, 248, 0.411);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 1.7rem;
+    height: 30px;
+}
+
+.linhac2 {
+    display: flex;
+    align-items: center;
+    padding: 0.1rem;   
+    padding-left: 0.7rem;
+    background-color: rgba(236, 236, 236, 0.37);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1.7rem;
+    height: 30px;
 }
 
 #listafunc {
@@ -128,7 +150,7 @@ img {
 #dados {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     width: 725px;
     height: 710px;
     gap: 2%;
@@ -145,6 +167,6 @@ img {
     width: 370px;
     height: 550px;
     padding: 0.4rem;
-    
 
 }
+
