@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(165, 77, 248);
+    font: normal 15pt Arial;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+header {
+    background-color: none;
+    padding: 15px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    width: 500px;
+    margin: 0.5rem;
+    color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+    text-align: none; 
+    display: flex;
+
+
+}
+
+footer {
+    background-color: none;
+    padding: 15px;
+    width: 50%;
+    margin: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+form {
+    display: inline;
+
+}
+
+img {
+    width: 98%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.582);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+    border-radius: 12px;
+}
+
+.colunacard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+.coluna1 {
+    background-color: rgb(97, 97, 97);
+    text-align: none;
+    color: white;
+    border-radius: 12px;
+    width: 47%;
+    height: auto;
+}
+
+.coluna2 {
+    background-color: rgba(97, 97, 97, 0.37);
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    width: 47%;
+    height: auto;
+}
+
+#listafunc {
+    width: 300px;
+    height: 30px;
+    font-size: 11pt;
+    display: flex;
+    align-self: flex-start;
+}
+
+#buttonrelatorio {
+    display: flex;
+    justify-self: end;
+    align-self: flex-end;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(196, 133, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+    color: white;
+
+}
+
+#search {
+    width: 725px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+#dados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 725px;
+    height: 710px;
+    gap: 2%;
+}
+
+#imagem {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 1.2rem;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
+    width: 370px;
+    height: 550px;
+    padding: 0.4rem;
+    
+
+}

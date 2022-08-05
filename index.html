@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Site</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Banco de funcionários!</h1>
+        </header>
+            <div class="card">               
+                <div id="imagem" style="margin-bottom: 0rem;" >
+                    <img src="imagens/daniel.png" alt="" srcset="">
+                </div>
+                <div class="colunacard">
+                    <section id="search">
+                        <form>
+                            <select name="colaboradores" id="listafunc">
+                                <option value="Patricia" onclick="selecionar(this.id)" id="patricia">Patricia</option>
+                                <option value="Rafael">Rafael</option>
+                                <option value="Carol">Carol</option>
+                                <option value="Daniel">Daniel</option>
+                                <option value="Rodrigo">Rodrigo</option>
+                            </select>
+                        </form>
+                        <input type="submit" id="buttonrelatorio" value="Relatório" onclick="selecionar()" />
+                    </section>
+                    <section id="dados">
+                        <div class="coluna1">
+                            <div>
+                                Nome
+                            </div>
+                            <div>
+                                Sexo
+                            </div>
+                            <div>
+                                Cargo
+                            </div>
+                            <div>
+                                Tempo
+                            </div>
+                        </div>
+                        <div class="coluna2">
+                            <div>
+
+                            </div>
+                            <div>
+                            
+                            </div>
+                            <div>
+                            
+                            </div>
+                            <div>
+                            
+                            </div>
+                        </div>
+                    </section>
+                </div>           
+            </div>
+        <footer>
+                <p>&copy; Phillipe Csorgo Henriques</p>
+        </footer>
+    </div>
+    <script src="JavaScript/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>
