@@ -1,13 +1,6 @@
-let funcionarios = {
-    nome: 'Patricia, Rafael, Carol, Daniel, Rodrigo',
-    sexo: 'F, M, F, M, M', 
-    setor: 'RH' ,
-    tempo: '14 meses'
-}
-
-// ou //
 
 let Patricia = {
+    foto: 'imagens/patricia.png',
     nome: 'Patricia',
     sexo: 'F', 
     setor: 'RH' ,
@@ -28,7 +21,14 @@ let Carol = {
     tempo: '1 ano e 5 meses'
 }
 
-console.log(Algumacoisaaquidentroprapesquisar)
+let funcionarios = [Patricia, Rafael, Carol]
+
+let select = document.querySelector('select')
+funcionarios.forEach((element) => {
+    select.options.add(new Option(element.nome, element.name))
+})
+
+console.log(funcionarios[4].nome)
 
 function selecionar() {
     let funcionarios = document.getElementById('patricia')

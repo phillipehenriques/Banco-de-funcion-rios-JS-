@@ -10,7 +10,11 @@
 <body>
     <div class="container">
         <header>
-            <h1>Banco de funcionários!</h1>
+            <div class="navbar">
+                <div class="navbarbox">
+                    Banco de funcionários!
+                </div>
+            </div>
         </header>
             <div class="card">               
                 <div id="imagem" style="margin-bottom: 0rem;" >
@@ -20,11 +24,7 @@
                     <section id="search">
                         <form>
                             <select name="colaboradores" id="listafunc">
-                                <option value="Patricia" onclick="selecionar(this.id)" id="patricia">Patricia</option>
-                                <option value="Rafael">Rafael</option>
-                                <option value="Carol">Carol</option>
-                                <option value="Daniel">Daniel</option>
-                                <option value="Rodrigo">Rodrigo</option>
+                                
                             </select>
                         </form>
                         <input type="submit" id="buttonrelatorio" value="Relatório" onclick="selecionar()" />
