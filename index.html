@@ -8,6 +8,8 @@
     <title>Site</title>
 </head>
 <body>
+        
+
     <div class="container">
         <header>
             <div class="navbar">
@@ -23,11 +25,11 @@
                 <div class="colunacard">
                     <section id="search">
                         <form>
-                            <select name="colaboradores" id="listafunc">
+                            <select name="colaboradores" onchange="changeEmployee(this.value)" id="listafunc">
                                 
                             </select>
                         </form>
-                        <input type="submit" id="buttonrelatorio" value="Relatório" onclick="selecionar()" />
+                        
                     </section>
                     <section id="dados">
                         <div class="coluna1">
@@ -54,26 +56,26 @@
                             </div>
                         </div>
                         <div class="coluna2">
-                            <div class="linhac2" style="margin-top: 1.7rem;">
-                                Valor
+                            <div class="linhac2" id="name" style="margin-top: 1.7rem;">
+                                
                             </div>
-                            <div class="linhac2">
-                                Valor
+                            <div class="linhac2" id="sex">
+                                
                             </div>
-                            <div class="linhac2">
-                                Valor
+                            <div class="linhac2" id="position">
+                                
                             </div>
-                            <div class="linhac2">
-                                Valor
+                            <div class="linhac2" id="sector">
+                                
                             </div>
-                            <div class="linhac2">
-                                Valor
+                            <div class="linhac2" id="hiring-date">
+                                
                             </div>
-                            <div class="linhac2">
-                                Valor
+                            <div class="linhac2" id="risignation-date">
+                                
                             </div>
-                            <div class="linhac2">
-                                Valor
+                            <div class="linhac2" id="total-time">
+                                
                             </div>
                         </div>
                     </section>

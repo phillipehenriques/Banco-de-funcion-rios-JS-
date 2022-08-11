@@ -172,9 +172,10 @@ img {
 }
 
 #search {
-    width: 725px;
+    width: 310px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-self: flex-end;
     flex-wrap: wrap;
     align-items: center;
     
@@ -202,4 +203,5 @@ img {
     padding: 0.4rem;
 
 }
+
 
