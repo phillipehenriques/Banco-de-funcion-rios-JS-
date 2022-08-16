@@ -2,7 +2,7 @@
 let Patricia = {
     id: 1,
     imagem: 'imagens/patricia.png',
-    nome: 'patricia',
+    nome: 'Patricia',
     sexo: 'Feminino', 
     cargo: 'Analista de recursos humanos',
     setor: 'RH',
@@ -14,7 +14,7 @@ let Patricia = {
 let Rafael = {
     id: 2,
     imagem: 'imagens/rafael.png',
-    nome: 'rafael',
+    nome: 'Rafael',
     sexo: 'Masculino',
     cargo: 'Analista de rede', 
     setor: 'Help Desk',
@@ -26,7 +26,7 @@ let Rafael = {
 let Carol = {
     id: 3,
     imagem: 'imagens/carol.png',
-    nome: 'carol',
+    nome: 'Carol',
     sexo: 'Feminino',
     cargo: 'Designer', 
     setor: 'UI/UX Designer',
@@ -38,7 +38,7 @@ let Carol = {
 let Rodrigo = {
     id: 4,
     imagem: 'imagens/rodrigo.png',
-    nome: 'rodrigo',
+    nome: 'Rodrigo',
     sexo: 'Masculino',
     cargo: 'Vendedor', 
     setor: 'Vendas',
@@ -50,7 +50,7 @@ let Rodrigo = {
 let Daniel = {
     id: 5,
     imagem: 'imagens/daniel.png',
-    nome: 'daniel',
+    nome: 'Daniel',
     sexo: 'Masculino',
     cargo: 'SEO',
     setor: 'Gerencia',
@@ -81,11 +81,9 @@ function changeEmployee(changeValue) {
 
     // --------------------- TENTATIVA 1
 
-    // let perfil = document.getElementById('imagem') 
+     let perfil = document.getElementById('imagem') 
 
-    // if (employee.nome == employee.imagem) {
-    // perfil.innerHTML = '<img class="img-bm" src="imagens/'+ id +'.jpg" alt=""/>'
-    // }
+    perfil.src = employee.imagem
 
     // --------------------- TENTATIVA 2
 
