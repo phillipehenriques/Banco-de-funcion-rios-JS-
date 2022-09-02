@@ -199,6 +199,7 @@ img {
     justify-content: center;
     align-self: center;
     margin-left: 1.2rem;
+    margin-top: 1.8vh;
     background-color: white;
     border-radius: 12px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.363);
